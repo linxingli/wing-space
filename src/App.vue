@@ -7,7 +7,7 @@
 <template>
   <img alt="Vue logo"
        src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue33311 + Vite" />
+  <HelloWorld msg="Hello Vue33311asdf + Vite" />
 </template>
 
 <style>
