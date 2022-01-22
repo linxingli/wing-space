@@ -13,6 +13,6 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@releases/v2
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: test/build
+        BRANCH: releases/v2
+        FOLDER: build
         BUILD_SCRIPT: npm install && npm run build
